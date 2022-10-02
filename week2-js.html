@@ -21,7 +21,7 @@
                 let managerCount=0
                 for(let i=0;i<employList.length;i++){
                     if(employList[i]["manager"]==false){
-                        allSalaryWithoutManager=employList[i]["salary"]
+                        allSalaryWithoutManager=allSalaryWithoutManager+employList[i]["salary"]
                         managerCount=managerCount+1
                     }
                 }
